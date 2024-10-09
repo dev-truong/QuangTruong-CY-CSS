@@ -1,0 +1,22 @@
+{
+  "name": "cy-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch ./scss/:./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-truong/QuangTruong-CY-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-truong/QuangTruong-CY-CSS/issues"
+  },
+  "homepage": "https://github.com/dev-truong/QuangTruong-CY-CSS#readme",
+  "dependencies": {
+    "sass": "^1.79.4"
+  }
+}
