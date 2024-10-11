@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    background: white;
+}
+.wrap-all {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.menu button {
+    background: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: darkblue;
+    border-color: blue;
+    border-radius: 20px;
+    padding: 5px;
+}
+.menu button:hover {
+    background-color: cornflowerblue;
+}
+.introduce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.introduce-text {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    color: #0B132A;
+}
+.avatar img {
+    border-radius: 50%;
+}
+.download-cv button{
+    background-color: indianred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.img-process {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.skill div:nth-child(1) {
+    color: dodgerblue;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+.skill-image {
+    width: 100px;
+    height: 100px;
+}
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infor {
+    display: flex;
+    gap: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: left;
+
+}
+.infor-text {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+}
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
